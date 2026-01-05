@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { View, Material, Transaction, TransactionType, Employee, PaymentRecord } from './types';
-import { serviço de armazenamento } de './storageService';
+import { storageService } from './storageService';
 import Sidebar from './Sidebar';
 import Dashboard from './Dashboard';
 import PricesView from './PricesView';
