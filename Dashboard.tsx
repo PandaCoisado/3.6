@@ -1,9 +1,8 @@
-
 import React, { useMemo, useState } from 'react';
-import { Material, Transaction, TransactionType } from '../types';
-import { TrendingDown, TrendingUp, DollarSign, BrainCircuit, Loader2, CalendarDays, ChevronLeft, ChevronRight, RotateCcw } from 'lucide-react';
+import { Material, Transaction, TransactionType } from './types';
+import { TrendingDown, TrendingUp, DollarSign, BrainCircuit, Layers, CalendarDays, ChevronLeft, ChevronRight, RotateCcw } from 'lucide-react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import { getBusinessInsights } from '../services/geminiService';
+import { getBusinessInsights } from './geminiService';.
 
 interface DashboardProps {
   materials: Material[];
