@@ -1,15 +1,15 @@
 
 import React, { useState, useEffect } from 'react';
 import { View, Material, Transaction, TransactionType, Employee, PaymentRecord } from './types';
-import { storageService } from './services/storageService';
-import Sidebar from './components/Sidebar';
-import Dashboard from './components/Dashboard';
-import PricesView from './components/PricesView';
-import MaterialsManager from './components/MaterialsManager';
-import TransactionForm from './components/TransactionForm';
-import History from './components/History';
-import RecycleBin from './components/RecycleBin';
-import EmployeesManager from './components/EmployeesManager';
+import { serviço de armazenamento } de './storageService';
+import Sidebar from './Sidebar';
+import Dashboard from './Dashboard';
+import PricesView from './PricesView';
+import MaterialsManager from './MaterialsManager';
+import TransactionForm from './TransactionForm';
+import History from './History';
+import RecycleBin from './RecycleBin';
+import EmployeesManager from './EmployeesManager';
 
 const App: React.FC = () => {
   // Define explicitamente o dashboard como a tela inicial padrão
